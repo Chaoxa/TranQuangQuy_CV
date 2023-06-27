@@ -1,0 +1,67 @@
+/* Ipad ngang (1024 x 768) */
+
+@media screen and (max-width: 792px) {
+}
+
+@media screen and (max-width: 768px) {
+  #wrapper {
+    width: 100%;
+  }
+  #wrapper img {
+    display: flex;
+    justify-content: center;
+  }
+  .fullname h1 {
+    font-size: 25px;
+  }
+  .fullname h4 {
+    font-size: 20px;
+  }
+  p.h5 {
+    color: #007457;
+  }
+  .line {
+    background: #007457;
+  }
+  .line-right,
+  .line-left {
+    background: #007457;
+  }
+  .hobby {
+    line-height: 15px;
+  }
+  .thumb-cv {
+    display: none;
+  }
+  .thumb-cv-none {
+    display: block;
+  }
+  .content-right {
+    background: white;
+  }
+  #wrapper {
+    margin: 0 auto;
+  }
+  .content-one {
+    padding-top: 25px;
+  }
+  .study {
+    padding-top: 25px;
+  }
+  .block {
+    line-height: 45px;
+  }
+  .content-left {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  /* .link-access {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%;
+    display: inline-block;
+  } */
+}
